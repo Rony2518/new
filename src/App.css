@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #23262e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.con{
+  padding: 20px;
+  background-color: #fff;
+}
+
+.displayCon{
+  margin-top: 20px;
+}
+
+.displayCon > p{
+  margin-top: 10px;
+}
+
+.displayCon > p > span{
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.displayCon > img{
+  background-color: #23262e;
+  border-radius: 50%;
+}
